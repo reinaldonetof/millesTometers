@@ -2,6 +2,6 @@
   "version": 2,
   "builds": [
     { "src": "index.html", "use": "@now/static" },
-    { "src": "*.js", "use": "@now/node" }
+    { "src": "calc.js", "use": "@now/static" }
   ]
 }
